@@ -17,21 +17,30 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="/assets/css/styles.min.css?h=76990d551e76564bf557f95f46a60a55">
+<<<<<<< HEAD
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
+=======
+>>>>>>> 6c2a1b7db1f2bc31b5cebce869b81943430063e9
 </head>
 
 <body>
     <nav class="navbar navbar-light navbar-expand-md d-xl-flex justify-content-xl-center align-items-xl-end">
+<<<<<<< HEAD
         <div class="container-fluid"><a href="/index.html"><img style="background-image: url(&quot;download (3).png&quot;);background-position: center;background-size: cover;width: 188px;" src="/assets/img/logo.png?h=e802ddc829ec24c27603475d6280ceb3"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div
                 class="collapse navbar-collapse" id="navcol-1">
+=======
+        <div class="container-fluid"><a href="index.html"><img style="background-image: url(&quot;download (3).png&quot;);background-position: center;background-size: cover;width: 188px;" src="/assets/img/logo.png?h=e802ddc829ec24c27603475d6280ceb3"></a><button data-toggle="collapse" class="navbar-toggler"
+                data-target="#navcol-1"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+>>>>>>> 6c2a1b7db1f2bc31b5cebce869b81943430063e9
                 <ul class="nav navbar-nav">
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#about" style="color: rgba(0,0,0,0.5);">About me</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#services">What I do</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="#projects">Recent projects</a></li>
-                    <li class="nav-item" role="presentation"><a class="nav-link active" href="#contact" style="color: rgba(0,0,0,0.5);">Contact</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html#about" style="color: rgba(0,0,0,0.5);">About me</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html#services">What I do</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html#projects">Recent projects</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="index.html#contact" style="color: rgba(0,0,0,0.5);">Contact</a></li>
                 </ul>
-        </div>
+            </div>
         </div>
     </nav>
     <div class="row">

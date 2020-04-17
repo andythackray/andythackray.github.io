@@ -33,15 +33,24 @@
             </div>
         </div>
     </nav>
-    <div class="row"></div>
-    <div class="container d-xl-flex justify-content-xl-center align-items-xl-center">
-        <h1>Whoops</h1>
+    <!-- Start: Contact Form Clean -->
+    <div class="contact-clean">
+        <form method="post" action="http://www.andythackray.co.uk/contactscript.php">
+            <h2 class="text-center">Contact me</h2>
+            <!-- Start: Success Example -->
+            <div class="form-group"><input class="form-control" type="text" name="name" placeholder="Name"></div>
+            <!-- End: Success Example -->
+            <!-- Start: Error Example -->
+            <div class="form-group"><input class="form-control is-invalid" type="email" name="email" placeholder="Email">
+                <!-- Start: The Error Message --><small class="form-text text-danger">Please enter a correct email address.</small>
+                <!-- End: The Error Message -->
+            </div>
+            <!-- End: Error Example -->
+            <div class="form-group"><textarea class="form-control" name="message" placeholder="Message" rows="14"></textarea></div>
+            <div class="form-group"><button class="btn btn-primary" type="submit">send </button></div>
+        </form>
     </div>
-    <div class="row">
-        <div class="col">
-            <p class="text-center">We can't find what you're looking for :/ (404 error)<br>Please check that you're in the right place, or use the nav bar to get back home</p>
-        </div>
-    </div>
+    <!-- End: Contact Form Clean -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>

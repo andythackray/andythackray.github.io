@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
-    <link rel="stylesheet" href="/assets/css/styles.min.css?h=39ca80de73a25ed84e5fb01fa5b3ab3f">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?h=76990d551e76564bf557f95f46a60a55">
 </head>
 
 <body>
@@ -40,20 +40,26 @@
                 <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
                     <!-- Start: Intro -->
                     <div class="intro">
-                        <h1 class="text-center d-xl-flex justify-content-xl-center" style="margin: 33px;">CS Tools updater</h1><img class="img-fluid" src="/assets/img/desk.jpg?h=3a4f709f4d20e2aa74fe960bf66a1603"></div>
+                        <h1 class="text-center d-xl-flex justify-content-xl-center" style="margin: 33px;">CS Tools updater</h1><img class="img-fluid" src="/assets/img/update.png?h=178e3b08b3eaebf6d2a5a7cdca62d45b"></div>
                     <!-- End: Intro -->
                     <!-- Start: Text -->
                     <div class="text">
-                        <p style="margin-top: 16px;">Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac lacus. <strong>Ut vehicula rhoncus</strong> elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit <em>pulvinar dict</em> vel in justo. Vestibulum
-                            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-                        <h2>Aliquam In Arcu </h2>
-                        <p>Suspendisse vel placerat ligula. Vivamus ac sem lac. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                            posuere cubilia Curae.</p>
-                        <figure><img class="figure-img" src="/assets/img/beach.jpg?h=51ff0c9ab700415d478f4324e2bb5568">
-                            <figcaption>Caption</figcaption>
+                        <p style="margin-top: 16px;">CS Tools is a Javascript based Userscript which was created by a co-worker in order to add some extra usability tweaks to our helpdesk software, admin panel and more. I contribute frequently, but due to the requirement to understand
+                            Javascript and HTML at a basic level in order to contribute, not all members of the team are able to make adjustments, which is problematic when the two that do understand are away.</p>
+                        <h2>What is this?</h2>
+                        <p>CS Tools Updater is a relatively basic Sinatra app that allows users to input and edit text using a WYSIWYG style interface, and then to update the Userscipt with that information, creating a download link for cstools.user.js which
+                            can be installed through extensions such as Tampermonkey.&nbsp;I created this due to the everchanging afersales information we received from rail operators in the early days of the COVID-19 outbreak.&nbsp;<br></p>
+                        <p>CS Tools supports a one click copy/paste feature, which copies a canned response. The canned response changes depending on the rail operator providing the journey, and also includes specifics about the journey/order item in order
+                            to personalise the message.</p>
+                        <p>Previously, the only way to update the information in the canned responses was to manually alter the Userscript, which was daunting to less technical team members. Due to the high frequency of updates from rail operators, the script
+                            needed to be changed sometimes 3 times per day, which either reduced productivity of the two staff members able to make the updates, or was simply impossible due to forced staff absences.<br></p>
+                        <p>By Creating CS Tools updater, I was able to make updates to the script much easier to manage for all users, allowing the tool be updated with the most recent information at the drop of a hat.</p>
+                        <figure><img class="figure-img" src="/assets/img/Untitled-1.png?h=85484c3d97cdf8d899b5ce92ba39718b" style="width: 730px;">
+                            <figcaption>Input form compared to script install page</figcaption>
                         </figure>
-                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Suspendisse vel placerat ligula. Vivamus ac sem lac. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit
-                            pulvinar dictum vel in justo.</p>
+                        <h2>What now?</h2>
+                        <p>I learned a lot about deploying an app to Heroku, but I'm still not done.<br><br>For my next steps, I want to add a proper database, convert the pages to Haml, and then look at adding additional features. Given the spike in work
+                            over the past few months due to the virus, I can't see this happening any time soon unfortunately.<br><br><a href="https://github.com/dropkickfish/CSToolsUpdater">Check out the project on GitHub</a><br></p>
                     </div>
                     <!-- End: Text -->
                 </div>
@@ -71,14 +77,14 @@
             <!-- End: Intro -->
             <!-- Start: Articles -->
             <div class="row articles">
-                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/desk.jpg?h=3a4f709f4d20e2aa74fe960bf66a1603"></a>
+                <div class="col-sm-6 col-md-4 item"><a href="/refundbot.html"><img class="img-fluid" src="/assets/img/bot.png?h=ddc6f829c8d3b59ae2682664a1ed96d1"></a>
                     <h3 class="name">Refund Bot</h3>
                     <p class="description">Not as fancy as it sounds - a Google AppScript (Javascript) script which sends an email when a Google Sheet is updated<br></p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
-                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/building.jpg?h=81ac45e70e53071d5f596698f9348544"></a>
+                <div class="col-sm-6 col-md-4 item"><a href="/ideabox.html"><img class="img-fluid" src="/assets/img/building.jpg?h=81ac45e70e53071d5f596698f9348544"></a>
                     <h3 class="name">Ideabox</h3>
                     <p class="description">An exercise in learning how to create a basic Ruby/Sinatra app. This is one of the first functional "web apps" I've built, and I eventually hope to add more to it.<br></p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/loft.jpg?h=22fa8d195a005d08526f0e28b13cdba9"></a>
+                    class="col-sm-6 col-md-4 item"><a href="/claimform.html"><img class="img-fluid" src="/assets/img/loft.jpg?h=22fa8d195a005d08526f0e28b13cdba9"></a>
                     <h3 class="name">Claim form filler</h3>
                     <p class="description">Leveraging Selenium web testing to automate form input for rail operator claims from a CSV. A massive time saver compared to previous workflows.<br></p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
         </div>

@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css">
     <link rel="stylesheet" href="/assets/css/styles.min.css?h=76990d551e76564bf557f95f46a60a55">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.css">
 </head>
 
 <body>
@@ -40,27 +41,33 @@
                 <div class="col-lg-10 col-xl-8 offset-lg-1 offset-xl-2">
                     <!-- Start: Intro -->
                     <div class="intro">
-                        <h1 class="text-center d-xl-flex justify-content-xl-center" style="margin: 33px;">Claim form filler</h1><img class="img-fluid" src="/assets/img/desk.jpg?h=3a4f709f4d20e2aa74fe960bf66a1603"></div>
+                        <h1 class="text-center d-xl-flex justify-content-xl-center" style="margin: 33px;">Claim form filler</h1><img class="img-fluid" src="/assets/img/forms.jpg?h=895e3b63ea646127aa6296444fe9e3da" style="width: 800px;"></div>
                     <!-- End: Intro -->
                     <!-- Start: Text -->
                     <div class="text">
-                        <p style="margin-top: 16px;">Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac lacus. <strong>Ut vehicula rhoncus</strong> elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit <em>pulvinar dict</em> vel in justo. Vestibulum
-                            ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
-                        <h2>Aliquam In Arcu </h2>
-                        <p>Suspendisse vel placerat ligula. Vivamus ac sem lac. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-                            posuere cubilia Curae.</p>
-                        <figure><img class="figure-img" src="/assets/img/beach.jpg?h=51ff0c9ab700415d478f4324e2bb5568">
-                            <figcaption>Caption</figcaption>
-                        </figure>
-                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae. Suspendisse vel placerat ligula. Vivamus ac sem lac. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit
-                            pulvinar dictum vel in justo.</p>
+                        <p style="margin-top: 16px;">One of the most time consuming and least efficient parts of my current role is submitting a claim form to some rail operators. The forms are clunky, the process time consuming, and it's perhaps the most tedious responsibility shared
+                            by our team.</p>
+                        <h2>What is this?</h2>
+                        <p>The Claim form filler is an experiment in automating input from a CSV file to a web form submission. I was asked to explore automating this following strike action which required us to complete hundreds of forms, and I&nbsp;found
+                            it incredibly interesting.<br><br>I started out looking at automation gems such as Mechanise and Nokogiri since I was learning Ruby at the time, but started to gravitate towards Python since more tools were available. I was
+                            able to create a basic Django server which allowed me to accomplish my original task, but on trying to apply this to other areas, I found that this approach was limiting as some forms reject machine input.</p>
                     </div>
                     <!-- End: Text -->
+                    <div class="d-xl-flex justify-content-xl-center"><img class="img-thumbnail d-xl-flex justify-content-xl-center align-items-xl-center" src="/assets/img/selenium-webdriver-logo-1.png?h=c7779bf136dbe3b46fea98107f290016"></div>
+                    <div>
+                        <p><br>After some research, I came across Selenium WebDriver - an automation framework for testing. I found that by using this, I was able to bypass some of the above restrictions on automated form completion.<br><br>I'm still in
+                            the process of exploring this, but find it really interesting and can't wait to see what else it's capable of.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- End: Article Clean -->
+    <!-- Start: Social Icons -->
+    <div class="social-icons"><a href="#"><i class="icon ion-social-github"></i></a>
+        <p>This project doesn't have a repo yet, but it'll be linke here when it does</p>
+    </div>
+    <!-- End: Social Icons -->
     <!-- Start: Article List -->
     <div class="article-list">
         <div class="container">
@@ -71,15 +78,15 @@
             <!-- End: Intro -->
             <!-- Start: Articles -->
             <div class="row articles">
-                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/desk.jpg?h=3a4f709f4d20e2aa74fe960bf66a1603"></a>
+                <div class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/update.png?h=178e3b08b3eaebf6d2a5a7cdca62d45b" style="height: 260px;"></a>
                     <h3 class="name">CS Tools updater</h3>
                     <p class="description">A basic Sinatra app&nbsp;<a href="https://staging-cstools.herokuapp.com/">hosted on Heroku</a>&nbsp;designed to allow less technical CS team members to contribute towards/edit a userscript.&nbsp;<br></p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
                 <div
-                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/building.jpg?h=81ac45e70e53071d5f596698f9348544"></a>
+                    class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/lightbulb-4429364_960_720.jpg?h=62202794131a86909d013957bd4e620e" style="height: 260px;"></a>
                     <h3 class="name">Ideabox</h3>
                     <p class="description">An exercise in learning how to create a basic Ruby/Sinatra app. This is one of the first functional "web apps" I've built, and I eventually hope to add more to it.<br></p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
             <div
-                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/loft.jpg?h=22fa8d195a005d08526f0e28b13cdba9"></a>
+                class="col-sm-6 col-md-4 item"><a href="#"><img class="img-fluid" src="/assets/img/bot.png?h=ddc6f829c8d3b59ae2682664a1ed96d1" style="height: 260px;"></a>
                 <h3 class="name">Refund bot</h3>
                 <p class="description">Not as fancy as it sounds - a Google AppScript (Javascript) script which sends an email when a Google Sheet is updated<br></p><a class="action" href="#"><i class="fa fa-arrow-circle-right"></i></a></div>
     </div>
@@ -89,8 +96,9 @@
     <!-- End: Article List -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
-    <script src="/assets/js/script.min.js?h=1cce0f8a2c230c0491eb97f5e991598a"></script>
+    <script src="/assets/js/script.min.js?h=e36b2dec94f31346d093223626f84a02"></script>
 </body>
 
 </html>
